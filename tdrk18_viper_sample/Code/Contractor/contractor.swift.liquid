@@ -6,8 +6,14 @@
 //  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-struct {{ module_info.name }}Router: {{ module_info.name }}Wireframe {
-    unowned let viewController: UIViewController
+protocol {{ module_info.name }}Presentation {
+}
+
+protocol {{ module_info.name }}View: class {
+}
+
+protocol {{ module_info.name }}Wireframe {
+    var viewController: UIViewController { get }
 }

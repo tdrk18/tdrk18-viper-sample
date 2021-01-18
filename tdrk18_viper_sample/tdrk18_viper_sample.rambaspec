@@ -7,6 +7,7 @@ license: MIT
 
 # The declarations for code files
 code_files:
+- {name: Contractor/Contractor.swift, path: Code/Contractor/contractor.swift.liquid}
 - {name: Interactor/Interactor.swift, path: Code/Interactor/interactor.swift.liquid}
 - {name: Presenter/Presenter.swift, path: Code/Presenter/presenter.swift.liquid}
 - {name: Router/Router.swift, path: Code/Router/router.swift.liquid}

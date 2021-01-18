@@ -8,12 +8,6 @@
 
 import Foundation
 
-protocol {{ module_info.name }}Presentation {
-}
-
-protocol {{ module_info.name }}View: class {
-}
-
 class {{ module_info.file_name }}Presenter {
     let wireframe: {{ module_info.name }}Wireframe
     weak var view: {{ module_info.name }}View?
