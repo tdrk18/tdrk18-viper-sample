@@ -17,6 +17,3 @@ test_files:
 - {name: Interactor/InteractorTests.swift, path: Tests/Interactor/interactor_tests.swift.liquid}
 - {name: Presenter/PresenterTests.swift, path: Tests/Presenter/presenter_tests.swift.liquid}
 - {name: Router/RouterTests.swift, path: Tests/Router/router_tests.swift.liquid}
-
-# Template dependencies
-dependencies:
