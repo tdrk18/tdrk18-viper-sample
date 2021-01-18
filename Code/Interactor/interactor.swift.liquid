@@ -1,0 +1,22 @@
+//
+//  {{ module_info.file_name }}
+//  {{ module_info.project_targets }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import Foundation
+
+struct {{ module_info.name }}Interactor {
+
+}
+
+extension {{ module_info.name }}Interactor: Usecase {
+    func execute(_ parameters: Parameters,
+                 completion: ((Result<Success, Failure>) -> ())?) {
+    }
+
+    func cancel() {
+    }
+}

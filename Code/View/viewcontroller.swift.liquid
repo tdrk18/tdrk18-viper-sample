@@ -1,0 +1,33 @@
+//
+//  {{ module_info.file_name }}
+//  {{ module_info.project_targets }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import UIKit
+
+class {{ module_info.name }}ViewController: UIViewController {
+    struct Dependency {
+        let presenter: {{ module_info.name }}Presentation
+    }
+
+    private var dependency: Dependency!
+
+    deinit {
+    }
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+}
+
+extension {{ module_info.name }}ViewController: {{ module_info.name }}View {
+}
+
+extension {{ module_info.name }}ViewController: DependencyInjectable {
+    func inject(_ dependency: Dependency) {
+        self.dependency = dependency
+    }
+}

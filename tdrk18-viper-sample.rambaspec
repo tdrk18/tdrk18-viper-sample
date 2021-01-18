@@ -1,0 +1,22 @@
+# Template information section
+name: tdrk18-viper-sample
+summary: sample viper template
+author: tdrk18
+version: 1.0.0
+license: MIT
+
+# The declarations for code files
+code_files:
+- {name: Interactor/Interactor.swift, path: Code/Interactors/interactor.swift.liquid}
+- {name: Presenter/Presenter.swift, path: Code/Presenters/presenter.swift.liquid}
+- {name: Router/Router.swift, path: Code/Routers/router.swift.liquid}
+- {name: View/ViewController.swift, path: Code/Views/viewcontroller.swift.liquid}
+
+# The declarations for test files
+test_files:
+- {name: Interactor/InteractorTests.swift, path: Tests/Interactor/interactor_tests.swift.liquid}
+- {name: Presenter/PresenterTests.swift, path: Tests/Presenter/presenter_tests.swift.liquid}
+- {name: Router/RouterTests.swift, path: Tests/Router/router_tests.swift.liquid}
+
+# Template dependencies
+dependencies:
